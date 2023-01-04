@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import { FiCopy } from "react-icons/fi";
 
 function App() {
  
@@ -12,7 +13,7 @@ function App() {
       <p 
         className='add'
         onClick={() => navigator.clipboard.writeText("npm i ms-cursor")}
-      >npm i ms-cursor</p>
+      >npm i ms-cursor <FiCopy style={{verticalAlign:"middle"}}/></p>
 
       <img 
         src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
